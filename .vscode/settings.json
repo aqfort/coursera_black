@@ -1,9 +1,9 @@
 {
-    "cmake.debugConfig": {
-        "args": [
-            // "argv[1]",
-            // "argv[2] argv[2]",
-            // "argv[3]"
-        ]
-    }
+  "cmake.debugConfig": {
+    "args": [
+      // "argv[1]",
+      // "argv[2] argv[2]",
+      // "argv[3]"
+    ]
+  }
 }

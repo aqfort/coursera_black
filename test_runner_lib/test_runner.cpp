@@ -2,14 +2,14 @@
 
 TestRunner::TestRunner()
 {
-    fail_count = 0;
+  fail_count = 0;
 }
 
 TestRunner::~TestRunner()
 {
-    if (fail_count > 0)
-    {
-        std::cerr << fail_count << " unit tests failed" << std::endl;
-        exit(1);
-    }
+  if (fail_count > 0)
+  {
+    std::cerr << fail_count << " unit tests failed" << std::endl;
+    exit(1);
+  }
 }
