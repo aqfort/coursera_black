@@ -15,7 +15,9 @@ add_subdirectory(test_runner_lib)
 
 # set(SOURCE week_1/draft.cpp)
 # set(SOURCE week_1/san_fail.cpp)
-set(SOURCE week_1/san_fail_next.cpp)
+# set(SOURCE week_1/san_fail_next.cpp)
+
+set(SOURCE week_3/main.cpp)
 
 add_executable(${PROJECT_NAME} ${SOURCE})
 target_link_libraries(${PROJECT_NAME} test_runner_lib)
